@@ -3,12 +3,12 @@ package com.kosgei.posts.di
 import android.content.Context
 import androidx.room.Room
 import com.google.gson.GsonBuilder
-import com.kosgei.posts.BASE_URL
 import com.kosgei.posts.BuildConfig
-import com.kosgei.posts.ROOM_DB_NAME
 import com.kosgei.posts.data.local.dao.PostDao
 import com.kosgei.posts.data.local.db.PostDatabase
 import com.kosgei.posts.data.remote.PostApiService
+import com.kosgei.posts.utils.BASE_URL
+import com.kosgei.posts.utils.ROOM_DB_NAME
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

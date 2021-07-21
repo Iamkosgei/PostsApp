@@ -47,7 +47,10 @@ dependencies {
     def coroutines_version ="1.4.1"
     def lifecycle_version = "2.3.1"
     def leak_canary = "2.7"
+    def preference_version = "1.1.1"
     def logging_interceptor = "4.9.1"
+    def activity_version = "1.2.3"
+
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.5.0'
@@ -90,7 +93,9 @@ dependencies {
     //shimmer loading
     implementation 'com.facebook.shimmer:shimmer:0.5.0'
 
-    //http logs interceptor
+    implementation "androidx.activity:activity-ktx:$activity_version"
+
+    //log interceptor
     implementation "com.squareup.okhttp3:logging-interceptor:$logging_interceptor"
 
 }
