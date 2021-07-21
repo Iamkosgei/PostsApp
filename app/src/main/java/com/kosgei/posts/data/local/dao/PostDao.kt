@@ -1,7 +1,6 @@
 package com.kosgei.posts.data.local.dao
 
 
-import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.kosgei.posts.data.models.Post
 
